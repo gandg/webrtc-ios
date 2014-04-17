@@ -31,9 +31,9 @@
 
 #import "RTCPeerConnectionObserver.h"
 
-#import "RTCICECandidate+internal.h"
-#import "RTCMediaStream+internal.h"
-#import "RTCDataChannel+internal.h"
+#import "RTCICECandidate+Internal.h"
+#import "RTCMediaStream+Internal.h"
+#import "RTCDataChannel+Internal.h"
 #import "RTCEnumConverter.h"
 
 namespace webrtc {

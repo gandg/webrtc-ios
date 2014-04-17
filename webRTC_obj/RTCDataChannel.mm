@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "RTCDataChannel+internal.h"
+#import "RTCDataChannel+Internal.h"
 
 namespace webrtc {
 
