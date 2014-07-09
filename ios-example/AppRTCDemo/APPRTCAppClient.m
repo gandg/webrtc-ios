@@ -101,7 +101,7 @@
      strippingQuotes:(BOOL)strippingQuotes {
   NSError* error;
   NSString* pattern =
-      [NSString stringWithFormat:@".*\n *var %@ = ([^\n]*);\n.*", name];
+      [NSString stringWithFormat:@".*;var %@=([^;]*);.*", name];
   NSRegularExpression *regexp =
       [NSRegularExpression regularExpressionWithPattern:pattern
                                                 options:0
